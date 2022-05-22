@@ -1,0 +1,16 @@
+.intro__paragraph{
+    max-width: 690px;
+    display:flex;
+    align-self:flex-start;
+    flex-wrap: wrap;
+    font-weight:normal;
+    font-size:1rem;
+    line-height:26px;
+    margin-top:40px;
+    margin-bottom:0px;
+    padding:0 0;
+    color:#fff;
+}
+
+
+

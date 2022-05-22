@@ -1,0 +1,31 @@
+.intro__title {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 43rem;
+    margin-top: 5.75rem;
+    margin-bottom: 0;
+    font-size: 3.375rem;
+    align-self: flex-start;
+    font-weight: 900;
+    line-height: 58px;
+    color: #fff;
+}
+
+@media screen and (max-width:1023px) {
+    .intro__title {
+        margin-top: 5.5rem;
+    }
+
+}
+
+@media screen and (max-width:767px) {
+    .intro__title {
+
+        margin-top: 4rem;
+        margin-bottom: 0;
+        font-size: 2rem;
+        line-height: 1.1;
+
+    }
+
+}

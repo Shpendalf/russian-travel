@@ -1,0 +1,18 @@
+.footer__memes{
+    text-decoration: none;
+    color:white;
+    font-size:0.875rem;
+    line-height:1.14;
+    transition: opacity 1s ease;
+}
+
+.footer__memes:hover{
+    opacity:0.8;
+}
+
+@media screen (max-width:767px) {
+    .footer__memes{
+        line-height:1;
+    }
+    
+}

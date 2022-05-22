@@ -1,0 +1,22 @@
+.place__paragraph{
+    font-weight:normal;
+    font-size:1.125rem;
+    line-height:1.63;
+    color:white;
+    margin-bottom:1.625rem;
+    letter-spacing: -0.35px;
+    margin-top:0px;
+    margin-left:0px;
+    margin-right:0px;
+    padding:0 0;
+}
+
+.place__paragraph:last-child{
+    margin-bottom:0px;
+}
+@media screen and (max-width:767px;) {
+    .place__paragraph{
+        margin:0 1rem;
+    }
+    
+}
