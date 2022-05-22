@@ -33,6 +33,6 @@
         margin:4rem auto;
         width:93%;
         grid-template-columns: repeat(1,minmax(284px, 1fr));
-      
-
+     
+}
 }
