@@ -21,6 +21,7 @@
 
 @media screen and (max-width:1279px) {
     .place {
+        grid-template-columns: minmax(440px, 1fr);
         width: 90.7%;
         grid-template-areas:
             "title  url"
@@ -34,7 +35,7 @@
     .place {
         width: 93.75%;
         column-gap: 2rem;
-        grid-template-columns: minmax(410px, 1fr);
+        grid-template-columns: minmax(330px, 1fr);
         grid-template-areas:
             "title  url"
             "image text";
@@ -42,16 +43,7 @@
 
 }
 
-@media screen and (max-width:850px) {
-    .place {
-        width: 93.75%;
-        column-gap: 2rem;
-        grid-template-columns: minmax(350px, 1fr);
-        grid-template-areas:
-            "title  url"
-            "image text";
-    }
-}
+
 
 
     @media screen and (max-width:767px) {
