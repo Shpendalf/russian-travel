@@ -1,5 +1,5 @@
 .lead__caption{
-    
+    max-width:1280px;
     color:#fff;
     margin-top:8px;
     margin-bottom:0px;
@@ -10,9 +10,17 @@
   
 }   
 
+@media screen  and (max-width:1279px){
+ .lead__caption{
+     max-width:90%;
+ }
+}
+    
+
+
 @media screen and (max-width:767px){
     .lead__caption{
-    
+        max-width:100%;
         color:#fff;
         margin-top:8px;
         margin-bottom:0px;
