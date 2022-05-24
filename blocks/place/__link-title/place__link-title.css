@@ -11,7 +11,8 @@
 
 @media screen and (max-width: 1279px) {
     .place__link-title {
-        line-height: 1;
+        
+        line-height: 1.275;
     }
 }
 

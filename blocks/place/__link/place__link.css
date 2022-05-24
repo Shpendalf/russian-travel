@@ -8,11 +8,14 @@
     line-height:1.22;
     transition: opacity 1s ease;
     color:white;
+    text-underline-offset: 0px; 
 
 }
 @media  screen and (max-width:767px) {
   .place__link{
-  margin:0 1rem;
+   margin-left:1rem;
+   margin-right:1rem;
+   margin-top:0.75rem;
   }
 }
 

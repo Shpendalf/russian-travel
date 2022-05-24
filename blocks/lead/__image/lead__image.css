@@ -4,7 +4,21 @@
     max-width: 100%;
     margin-left:auto;
     margin-right:auto;
-    margin-top:64px;
+    margin-top:4rem;
     margin-bottom:0px;
+    }
+
+@media screen and (max-width:1279px){
+    .lead__image{
+        margin-top:3.5rem;
+    }
+    
 }
+
+@media screen and (max-width:767px){
+    .lead__image{
+        margin-top:2.5rem;
+    }
+}
+
 
