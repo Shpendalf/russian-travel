@@ -1,23 +1,24 @@
-.header__link{
-    font-size: 1.5rem;
-    line:1.75em;;
-    color:#fff;
+.header__link {
+  font-size: 1.5rem;
+  line: 1.75em;
+  
+  color: #fff;
+  font-weight: normal;
+  margin-left: 0px;
+  margin-right: 0px;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+@media screen and (max-width:768px) {
+  .header__link {
+    font-size: 1.125rem;
+    line-height: 1.25;
+    color: #fff;
     font-weight: normal;
-    margin-left:0px;
-    margin-right:0px;
-    text-decoration:underline ;
-    text-underline-offset: 4px; 
-  }
-
-  @media screen and (max-width:768px){
-    .header__link{
-      font-size: 1.125rem;
-      line-height:1.25;
-      color:#fff;
-      font-weight: normal;
-      margin-left:0px;
-      margin-right:0px;
-      
-    }
+    margin-left: 0px;
+    margin-right: 0px;
 
   }
+
+}
