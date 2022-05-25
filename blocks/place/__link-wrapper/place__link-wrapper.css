@@ -3,7 +3,16 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    row-gap:12px;
     
 
+    
+}
+
+@media  screen and (max-width:767px) {
+    .place__link-wrapper{
+        padding-left:5vw;
+        padding-right:5vw;
+    }
     
 }

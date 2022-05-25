@@ -1,18 +1,14 @@
-.header__links{
-    display:flex;
-    column-gap:18px;
-    margin-top:2.825rem;
-    padding:0 0;
-    padding-right:3rem;
-  
-  
-        }
-        @media screen and (max-width:768px){
-            .header__links{
-                display:flex;
-                column-gap:18px;
-               margin-top:30px;
-                padding-right:16px;
-                    }
-            
-        }
+.header__links {
+    display: flex;
+    column-gap: 18px;
+    margin-top: 46px;
+    padding: 0 0;
+
+
+}
+@media screen and (max-width:767px){
+    .header__links{
+        margin-top:30px;
+    }
+    
+}

@@ -1,9 +1,10 @@
-.page{
-    background-color: #2a2c2f;
-    margin-left:auto;
-    margin-right:auto;
-    font-family: 'Inter','Arial','Helvetica';
-    font-size:16px;
-    overflow-x:hidden;
-      }
-    
+.page {
+  background-color: #2a2c2f;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Inter', 'Arial', 'Helvetica';
+  font-size: 16px;
+  -moz-osx-font-smoothing:grayscale;
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}

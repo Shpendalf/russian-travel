@@ -2,22 +2,15 @@
     grid-area: url;
     margin-left:0;
     margin-right:0;
-    margin-top:0.75rem;
     padding: 0 0;
-    font-size:1.125rem;
-    line-height:1.22;
+    font-size:18px;
+    line-height:22px;
     transition: opacity 1s ease;
     color:white;
-    text-underline-offset: 0px; 
+    text-underline-offset: 3px; 
 
 }
-@media  screen and (max-width:767px) {
-  .place__link{
-   margin-left:1rem;
-   margin-right:1rem;
-   margin-top:0.75rem;
-  }
-}
+
 
 .place__link:hover{
   opacity: 0.8;

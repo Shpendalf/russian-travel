@@ -1,10 +1,10 @@
 .intro__title {
     display: flex;
     flex-wrap: wrap;
-    max-width: 43rem;
-    margin-top: 5.75rem;
+    max-width: 690px; ;
+    margin-top:92px;
     margin-bottom: 0;
-    font-size: 3.375rem;
+    font-size: 54px;
     align-self: flex-start;
     font-weight: 900;
     line-height: 58px;
@@ -13,7 +13,7 @@
 
 @media screen and (max-width:1023px) {
     .intro__title {
-        margin-top: 5.5rem;
+        margin-top:88px;
     }
 
 }
@@ -21,10 +21,10 @@
 @media screen and (max-width:767px) {
     .intro__title {
 
-        margin-top: 4rem;
+        margin-top: 64px;
         margin-bottom: 0;
-        font-size: 2rem;
-        line-height: 1.1;
+        font-size: 32px;
+        line-height: 35px;
 
     }
 

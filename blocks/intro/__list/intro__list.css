@@ -10,14 +10,20 @@
   text-align: left;
   max-width: 690px;
   color: #fff;
-  font-size: 0.75rem;
+  font-size: 12px;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 18px;
+  padding-bottom:92px;
 
 }
-
-@media screen and (max-width:330px) {
-  .intro__list {
-    letter-spacing: -0.5px;
+@media screen and (max-width:1023px){
+  .intro__list{
+    padding-bottom:88px;
   }
+}
+
+@media screen and (max-width:767px) {
+  .intro__list {
+    padding-bottom:64px;
+   }
 }
