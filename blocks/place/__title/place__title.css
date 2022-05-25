@@ -12,7 +12,7 @@
     padding-top:80px;
 }
 .place__title:first-child{
-    padding-top:0px
+    padding-top:0px;
 }
 
 @media screen and (max-width:1023px) {
