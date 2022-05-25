@@ -1,20 +1,26 @@
-.footer__links{
-    display:flex;
-    flex-direction:row;
-    column-gap:18px;
-    margin-top: 92px;
-   
+.footer__links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 18px;
+    padding-top: 92px;
+    padding-bottom: 24px;
+
 }
 
 @media screen and (max-width:1023px) {
-    
-    
+    .footer__links {
+        padding-top: 88px;
+       
+    }
 }
 
-@media screen and (max-width:767px){
-    .footer__links{
+@media screen and (max-width:767px) {
+    .footer__links {
         flex-direction: column;
-        row-gap:32px;}
-       
-    
+        row-gap: 32px;
+        padding-top: 64px;
+        padding-bottom: 48px;
+    }
+
+
 }

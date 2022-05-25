@@ -5,12 +5,14 @@
     margin:0 0;
     padding:0 0;
     font-weight:400;
-    margin-bottom:24px;
+    padding-top:92px;
+    padding-bottom:24px;
     }
 
     @media  screen and (max-width:767px) {
         .footer__copyright-text{
-            margin-top:48px;
+            padding-top:0px;
+            
         }
         
     }

@@ -7,9 +7,7 @@
     padding: 0 0;
 }
 
-.footer__link:first-child {
-    margin-top: 92px;
-}
+
 
 .footer__link:hover {
     opacity: 0.8;
@@ -22,7 +20,4 @@
 
     }
 
-    .footer__link:first-child {
-        margin-top: 64px;
-    }
-}
+
