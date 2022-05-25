@@ -1,8 +1,9 @@
 .intro__title {
     display: flex;
     flex-wrap: wrap;
-    max-width: 690px; ;
-    margin-top:92px;
+    max-width: 690px;
+    
+    margin-top: 92px;
     margin-bottom: 0;
     font-size: 54px;
     align-self: flex-start;
@@ -13,7 +14,7 @@
 
 @media screen and (max-width:1023px) {
     .intro__title {
-        margin-top:88px;
+        margin-top: 88px;
     }
 
 }
