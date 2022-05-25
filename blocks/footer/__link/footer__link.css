@@ -2,7 +2,7 @@
     text-decoration: none;
     color: white;
     font-size: 16px;
-    line-height:18px;
+    line-height: 18px;
     transition: opacity 1s ease;
     padding: 0 0;
 }
@@ -19,5 +19,4 @@
         line-height: 24px;
 
     }
-
-
+}
